@@ -1,0 +1,14 @@
+<head>
+	<title>Time Tracker</title>
+</head>
+
+<body>
+	{{> timeTrackerForm }}
+</body>
+
+<template name="timeTrackerForm">
+	<div class="panel time-track">
+		<span class='input-label'>{{ elapsedTime }}</span>
+		<button id="btnToggleTrackingStatus">{{ trackingButtonLabel }}</button>
+	</div>
+</template>
